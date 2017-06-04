@@ -1,0 +1,544 @@
+
+ 
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+}
+
+p, input, textarea{
+	font-family: 'Lora', serif;
+}
+
+/****************
+SECTION
+*****************/
+section{
+	background-color: #fff;
+	padding: 80px 0;
+}
+
+section.darker{
+	background-color: #fbfbfb;
+}
+
+section header{
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+p{
+	color: #808080;
+}
+
+address{
+	margin-bottom: 50px;
+}
+
+address span{
+	margin-top:0;
+	margin-bottom: 25px;
+	font-size: 20px;
+	display: block;
+}
+
+a{
+	color: #fa694e;
+}
+
+a:hover,
+a:focus{
+	color: #FA4B2A;
+}
+
+.logo{
+	position: absolute;
+	left: 15px;
+	top: 15px;
+}
+
+.menu-toggle{
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	font-size: 30px;
+	color: #fff;
+}
+
+.menu{
+	width: 300px;
+	display: block;
+	background: #333;
+	height: 100%;
+	top: 0;
+	right: -300px;
+	position: fixed;
+	z-index: 100;
+	text-align: center;
+	transition: right 0.4s;
+}
+
+.menu.nav-expanded{
+	right: 0;
+}
+
+.menu .close{
+	color: #fff;
+	margin-right: 10px;
+	margin-top:10px;
+}
+
+.menu h3{
+	margin-top:50px;
+	text-transform: uppercase;
+}
+
+.menu .nav{
+	padding: 0;
+}
+
+.menu .nav > li > a{
+	color: #fff;
+}
+
+.menu .nav > li > a:hover,
+.menu .nav > li > a:focus{
+	background: transparent;
+	color: #fa694e;
+}
+
+.menu .social-icons{
+	margin-top: 50px;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.menu .social-icons li{
+	margin-right: 10px;
+	float: none;
+	display: inline-block;
+}
+
+.menu .social-icons li:last-child{
+	margin-right: 0;
+}
+
+.menu .social-icons > li > a{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+}
+
+
+.jumbotron{
+	text-align: center;
+	position: relative;
+	background-color:black;
+	background-position:fixed;
+	background-size: cover;
+	color: #fff;
+}
+
+.jumbotron .mask{
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #333;
+	opacity: 0.5;
+}
+
+.jumbotron p{
+	color: #fff;
+}
+
+.jumbotron .container{
+	margin-top: 20%;
+}
+
+.jumbotron h1{
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.header-info{
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.education{
+	height:100%;
+	width:100%;
+	background: url('../img/bg8.jpg');
+	background-size: cover;
+	color: #fff;
+	
+	
+	
+}
+.thought{height:100%;
+	width:100%;
+	background: url('../img/projects3.png');
+	background-size: cover;
+	color: #1e0406;
+	
+	
+}
+
+
+.work_and_awards{
+	height:100%;
+	width:100%;
+	background: url('../img/images.jpg');
+	background-position:fixed;
+	background-size: cover;
+	color: #fff;
+	
+	
+}
+.awards{
+	height:100%;
+	width:100%;
+	background: url('../img/awards.png');
+	background-size: cover;
+	color: #000;
+	
+}
+/*----------------------------------------------*/
+/*	Skill Bars
+/*----------------------------------------------*/
+
+
+	
+	
+}
+.bars {
+	width: 65%;
+	float: left;
+	padding: 0;
+	text-align: left;
+}
+.bars .skills {
+  	margin-top: 36px;
+   list-style: none;
+}
+.bars li {
+   position: relative;
+  	margin-bottom: 60px;
+  	background: #cdebcf;
+  	height: 42px;
+  	border-radius: 3px;
+}
+.bars li em {
+	font: 15px 'opensans-bold', sans-serif;
+   color: #313131;
+	text-transform: uppercase;
+   letter-spacing: 2px;
+	font-weight: normal;
+   position: relative;
+	top: -36px;
+}
+.bar-expand {
+   position: absolute;
+   left: 0;
+   top: 0;
+
+   margin: 0;
+   padding-right: 24px;
+  	background: #515385;
+   display: inline-block;
+  	height: 42px;
+   line-height: 42px;
+   border-radius: 3px 0 0 4px;
+}
+
+.photoshop {
+  	width: 60%;
+  	-moz-animation: photoshop 2s ease;
+  	-webkit-animation: photoshop 2s ease;
+}
+.java {
+  	width: 55%;
+  	-moz-animation: illustrator 2s ease;
+  	-webkit-animation: illustrator 2s ease;
+}
+.bootstrap {
+  	width: 50%;
+  	-moz-animation: wordpress 2s ease;
+  	-webkit-animation: wordpress 2s ease;
+}
+.css {
+  	width: 90%;
+  	-moz-animation: css 2s ease;
+  	-webkit-animation: css 2s ease;
+}
+.html5 {
+  	width: 80%;
+  	-moz-animation: html5 2s ease;
+  	-webkit-animation: html5 2s ease;
+}
+.jquery {
+  	width: 50%;
+  	-moz-animation: jquery 2s ease;
+  	-webkit-animation: jquery 2s ease;
+}
+.javascript{
+	width: 40%;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
+	
+}
+.contentwriting{
+	width: 90%;
+  	-moz-animation: contentwriting 2s ease;
+  	-webkit-animation: contentwriting 2s ease;
+	
+}
+
+
+@-moz-keyframes photoshop {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-moz-keyframes java {
+  0%   { width: 0px;  }
+  100% { width: 55%;  }
+}
+@-moz-keyframes bootstrap {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-moz-keyframes css {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-moz-keyframes html5 {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-moz-keyframes jquery {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+
+@-webkit-keyframes javascript {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-webkit-keyframes contentwriting {
+  0%   { width: 0px;  }
+  100% { width: 55%;  }
+}
+@-webkit-keyframes wordpress {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-webkit-keyframes css {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-webkit-keyframes html5 {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes jquery {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+
+/****
+PORTFOLIO
+*****/
+.myprojects{
+	height:100%;
+	width:100%;
+	background: url('../img/.png');
+	background-size: cover;
+	color:#000
+	
+	
+}
+.project{
+	border: 1px solid #808080;
+	margin-bottom: 70px;
+}
+
+.project .project-info h3{
+	margin-top: 50px;
+}
+
+.project .project-info p{
+	padding-right: 30px;
+	margin:30px 0;
+}
+
+.project .project-info .close{
+	position: absolute;
+	right: 20px;
+	top:10px;
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	color: #808080
+}
+
+.portfolio-item{
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.portfolio-item .mask{
+	position: absolute;
+	top:0;
+	left: 15px;
+	right: 15px;
+	height: 100%;
+	transition: all 0.4s;
+	background: rgba(0,0,0, 0.5);
+	opacity: 0;
+}
+
+.portfolio-item .mask i{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top:-25px;
+	margin-left: -25px;
+	width: 50px;
+	height: 50px;
+	color: #fff;
+	background-color: #fa694e;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+}
+
+.portfolio-item:hover .mask{
+	opacity: 1;
+}
+
+.workdesigns{
+	height:100%;
+	width:100%;
+	<--background: url('../img/bg1.jpg');
+	background-size: cover;
+	color: #fff;
+	
+	
+	
+}
+.hello
+{
+	color: black;
+}
+.contact{
+	height:100%;
+	width:100%;
+	background: url('../img/bg2.jpg');
+	background-size: cover;
+	color: #fff;
+	
+	
+}
+
+.text{
+color:#fff;}
+
+
+.btn{
+	padding: 15px 30px;
+	border-radius: 0;
+	-webkit-transition: border-color 0.4s, color 0.4s;
+	transition: border-color 0.4s, color 0.4s;
+}
+
+.btn-primary{
+	background: #blue;
+	border-width: 2px;
+	color: #fff;
+	border-color: #white;
+}
+
+.btn-primary:hover,
+.btn-primary:focus{
+	background: #fff;
+	color: #fa5c58;
+	border-color: #fe4a46;
+}
+
+
+/*******************************
+FORMS
+********************************/
+form{
+	margin-bottom: 70px;
+
+}
+
+.form-group .btn{
+	width: 100%;
+	text-transform: uppercase;
+}
+.form-control{
+	padding: 17px 25px;
+	font-size: 15px;
+	height: auto;
+	border-radius: 0;
+	background: #f1f4f7;
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: all 0.5;
+	transition: all 0.5s;
+	border: 1px solid #fff;
+}
+
+.form-control:focus{
+	border: 1px solid #454554;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+footer{
+	padding: 75px 0;
+	background-color:#446167;
+	color: #fff;
+}
+
+footer p{
+	color: #fff;
+}
+
+ul.social-icons{
+	list-style: none;
+	padding: 0;
+}
+
+ul.social-icons > li{
+	float: left;
+	margin-right: 25px;
+}
+
+ul.social-icons > li > a{
+	color: #333;
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	border-radius: 100%;
+	background: #fff;
+	display: block;
+	text-align: center;
+}
+
+
+@media screen and (min-width: 768px){
+
+	.jumbotron h1, 
+	.jumbotron .h1 {
+		font-size: 75px;
+	}
+}
